@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #aaa;
+}
+
+.vivaldi {
+    float:right;
+    width: 25%;
+    margin: 2% 0 2% 2%;
+}
+
+.springmusic {
+    float:right;
+    width: 40%;
+    margin: 2% 0 2% 2%;
+}
+
+.summermusic {
+    float:right;
+    width: 45%;
+    margin: 2% 0 0% 2%;
+}
+
+.fallmusic {
+    float:right;
+    width: 45%;
+    margin: 2% 0 0% 2%;
+}
+
+.wintermusic {
+    float:right;
+    width: 45%;
+    margin: 2% 0 0% 2%;
+}
+
+#vivaldi {
+    padding: 3px 0 0 0;
+}
+
+section {
+    overflow: auto;
+}
+
+body#index {
+    background-color: burlywood;
+}
+
+body#spring {
+    background-color: #87CEEB;
+}
+
+body#fall {
+    background-color:#CD853F;
+}
+
+body#winter {
+    background-color:#4682C4 ;
+}
+
+#wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, nav, section, footer{
+    padding: 2%;
+    margin: 2%;
+    background-color: #fff;
+}
+
+header, footer {
+    text-align: center;
+    font-family: georgia, serif;
+    color: white;
+    background-color: black;
+    }
+
+#index header, #index footer {
+    background-color: firebrick;
+    text-align: center;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+#index nav{
+    background-color: firebrick;
+}
+
+#index section {
+    background-color: bisque;
+}
+
+
+#spring header, #spring footer {
+    background-color:   #FFB6C1;
+}
+
+#fall header, #fall footer {
+    background-color: #CC5500;
+}
+
+nav {
+    background-color: red;
+    text-align: center;
+    font-size: x-large;
+    padding: 13px;
+}
+
+#spring nav {
+    background-color: #C8A2C8;
+}
+
+#spring aside {
+    background-color:  #FFB6C1;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+#spring article {
+    background-color:  #FFB6C1;
+    width: 68%;
+    float: right;
+    padding: 1% 3%;
+    border-left: 2px solid black;
+}
+
+#spring section {
+    background-color:  #FFB6C1;
+}
+
+#spring nav a:hover {
+    background-color: #FFB6C1;
+}
+
+body#summer {
+    background-color: #FFD700;
+}
+
+#summer header, #summer footer {
+    background-color:#FF6F61;
+}
+
+#summer nav {
+    background-color:#FF3B3F;
+}
+
+#summer aside {
+    background-color:#FF6F61;
+    width: 25%;
+    float: left;
+    text-align: center;
+    //*border-right: 2px solid black;*//
+}
+
+#summer article {
+    background-color:#FF6F61;
+    width: 68%;
+    float: right;
+    padding: 1% 3%;
+    border-left: 2px solid black;
+}
+
+#summer section {
+    background-color: #FF6F61;
+}
+
+#summer nav a:hover {
+    background-color: #FF6F61;
+}
+
+#fall nav {
+    background-color:#AF6E4D;
+}
+
+#fall aside {
+    background-color:#CC5500;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+#fall article {
+    background-color: #CC5500;
+    width: 68%;
+    float: right;
+    padding: 1% 3%;
+    border-left: 2px solid black;
+    
+}
+
+#fall section {
+    background-color: #CC5500;
+}
+
+#fall nav a:hover {
+    background-color: #CC5500;
+}
+
+
+#winter header, #winter footer {
+    background-color: #A9CCEE;
+}
+
+#winter nav {
+    background-color:#2C3E50;
+}
+
+#winter aside {
+    background-color:#A9CCEE;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+#winter article {
+    background-color: #A9CCEE;
+    width: 68%;
+    float: right;
+    padding: 1% 3%;
+    border-left: 2px solid black;
+    
+}
+
+#winter section {
+    background-color: #A9CCEE;
+}
+
+#winter nav a:hover {
+    background-color:#A9CCEE;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+
+#index nav a:hover {
+    background-color: indianred;
+    
+}
+
+nav a:hover {
+    background-color: #900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
