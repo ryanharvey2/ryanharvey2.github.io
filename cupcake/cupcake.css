@@ -142,8 +142,12 @@ footer li {
         display: block;
         width: 100%;
         text-align: center;
+        overflow: auto;
     }
     
+    nav a {
+        padding: 15px 0;
+    }
     aside a {
     text-decoration: none;
     padding: 15px 25px;
