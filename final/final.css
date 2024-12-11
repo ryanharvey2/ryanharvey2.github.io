@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bevan:ital@0;1&family=Oswald:wght@200..700&family=Satisfy&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+
+#wrap{
+    width: 65%;
+    margin: 0 auto;
+}
+#overview{
+    
+}
+.vivaldi {
+    float:right;
+    width: 25%;
+    margin: 2% 0 2% 2%;
+}
+
+header h1{
+font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.week14 {
+    display: block;
+    /*float: none;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.summermusic {
+    float:right;
+    width: 45%;
+    margin: 2% 0 0% 2%;
+}
+
+.fallmusic {
+    float:right;
+    width: 45%;
+    margin: 2% 0 0% 2%;
+}
+
+.wintermusic {
+    float:right;
+    width: 45%;
+    margin: 2% 0 0% 2%;
+}
+
+#vivaldi {
+    padding: 3px 0 0 0;
+}
+
+section {
+    overflow: auto;
+    border-radius: 10px;
+    color: black;
+}
+
+
+
+header, nav, section, footer{
+    padding: 2%;
+    margin: 2%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+header, footer {
+    text-align: center;
+    font-family: georgia, serif;
+    color: white;
+    background-color: #720e9e;
+    }
+
+
+nav {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: large;
+    padding: 13px;
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #720e9e;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+
+nav a:hover {
+    background-color: #720e9e;
+    color: white;
+}
+
+footer {
+    font-size: 14px;
+}
+
+#team aside {
+    background-color: transparent;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+#team article {
+    background-color: transparent;
+    width: 68%;
+    float: right;
+    padding: 1% 3%;
+    border-left: 2px solid black;
+}
+
+table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 2px;
+    
+}
+
+thead {
+    background-color: #720e9e;
+    color: white;
+    /*font-size: larger;*/
+    font-family: verdane, sans-serif;
+    align-content: center;
+    
+}
+
+tbody td {
+    border: 1px solid black;
+}
+
+tbody tr/*:nth-child(even)*/ {
+    background-color: ghostwhite;
+    color: black;
+}
+
+td.pos {
+    background-color: dimgrey;
+    font-weight: bold;
+    color: white;
+}
+
+td.head {
+    font-weight: 550;
+}
+.roster {
+    font-size: 20px;
+}
+
+#league aside {
+    background-color: transparent;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#league article {
+    background-color: transparent;
+    width: 42%;
+    float: right;
+    padding: 1% 3%;
+    border-left: 2px solid black;
+}
+
+.google {
+    width: 100%;
+}
+
+#strategy aside {
+    background-color: transparent;
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+#strategy article {
+    background-color: transparent;
+    width: 52%;
+    float: right;
+    padding: 1% 3%;
+    border-left: 2px solid black;
+}
+
+#instagram-media{
+    
+}
+
+header p {
+    font-size: larger;
+}
+
